@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            overflow: hidden scroll;
+        }
+        header {
+            top: 0;
+            height: 5vw;
+            width: 100vw;
+            z-index: index 1;
+            background-color: rgb(184, 44, 44);
+            font-size: 48pt;
+            transition: 2s;
+            position: absolute;
+        }
+        header:hover {
+            height: 10vw;
+            font-size: 90pt;
+        }
+        .heading {
+            text-align: left;
+            padding: 2vw, 1vw;
+            color:white;
+        }
+        .heading a {
+            color:white;
+            text-decoration: none;
+        }
+        header .logo {
+            height:100px;
+            width:100px;
+            transition: 2s;
+        }
+        header:hover .logo {
+            transform: scale(1.5);
+            align-content: center;
+        }
+        main {
+            top: 5vw;
+            bottom: 95vw;
+            height: 90vw;
+            padding: 5vw 20vw;
+        }
+        footer{
+            z-index: 1;
+            height:5vw;
+            bottom: 100%;
+            top: 95%;
+            position: bottom;
+            background-color: darkblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <h2>About Me.</h2>
+            <hr/>
+            <p>I am an undergraduate data science student at the university of kent, my long term aspirations are to break into finance.
+               I will achieve this using the skills that I obtain from working in the computer science industry.
+            </p>
+        </section>
+        
+    </main>
+    <footer>
+        <div>
+            <p>Hello</p>
+        </div>
+    </footer>
+</body>
+</html>
